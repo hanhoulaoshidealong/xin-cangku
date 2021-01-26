@@ -31,8 +31,7 @@ $(function () {
         }
       });  
 
-      axios.defaults.baseURL = 'http://api-breakingnews-web.itheima.net';
-      console.log( axios.defaults.baseURL);
+     
 
       $(".regiBox form").on('submit',function (e) {
           e.preventDefault()
