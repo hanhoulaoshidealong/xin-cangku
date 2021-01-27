@@ -15,7 +15,7 @@ getUserInfo()
 
 // 处理头像昵称
 function avatarAndName(res) {
-    console.log("res",res);
+    // console.log("res",res);
 
     let name = res.data.nickname || res.data.username
     // console.log(name);
